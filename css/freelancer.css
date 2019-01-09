@@ -223,6 +223,7 @@ header.masthead h2 {
 .title {
   height: 100vh;
   min-height: 650px;
+  min-width: 992px;
   padding-top: 0;
   padding-bottom: 0;
   position: relative;
