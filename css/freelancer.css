@@ -177,20 +177,6 @@ header.masthead {
   padding-bottom: 6rem;
 }
 
-header.title {
-  min-height: 30rem;
-  position: relative;
-  display: table;
-  width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(https://jake-vink.github.io/img/title.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 header.masthead h1 {
   font-size: 3rem;
   line-height: 3rem;
@@ -215,6 +201,19 @@ header.masthead h2 {
   }
 }
 
+.title {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(https://jake-vink.github.io/img/title.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .portfolio {
   margin-bottom: -15px;
 }
