@@ -108,6 +108,7 @@ section h2 {
   padding-bottom: 1rem;
   font-weight: 700;
   font-family: 'Montserrat';
+  background-color: transparent;
 }
 
 #mainNav .navbar-brand {
@@ -144,6 +145,7 @@ section h2 {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    background-color: transparent;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
@@ -166,6 +168,8 @@ section h2 {
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    background-color: transparent;
+    background-color: black;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
