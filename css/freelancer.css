@@ -178,7 +178,13 @@ header.masthead {
 }
 
 header.title {
-  background-image: url('/img/title.png')
+  background-image: url('/img/title.png');
+  height: 50%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
 }
