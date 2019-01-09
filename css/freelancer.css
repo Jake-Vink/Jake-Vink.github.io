@@ -182,7 +182,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: contain;
+  background-size: auto;
 }
 
 header.masthead h1 {
@@ -197,15 +197,15 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-  /*  padding-top: calc(6rem + 106px);
+    padding-top: calc(6rem + 106px);
     padding-bottom: 6rem;
-  */  text-align: center;
+    text-align: center;
     color: #fff;
     background-image: url(../img/title.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
-    background-size: contain;
+    background-size: auto;
   }
   header.masthead h1 {
     font-size: 4.75em;
