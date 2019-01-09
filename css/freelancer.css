@@ -177,6 +177,12 @@ header.masthead {
   padding-bottom: 6rem;
 }
 
+header.title {
+  background-image: url('/img/title.png')
+  padding-top: calc(6rem + 72px);
+  padding-bottom: 6rem;
+}
+
 header.masthead h1 {
   font-size: 3rem;
   line-height: 3rem;
