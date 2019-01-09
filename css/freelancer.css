@@ -173,8 +173,16 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
+/*  padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
+*/
+  text-align: center;
+  color: #fff;
+  background-image: url(../img/title.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
 
 header.masthead h1 {
@@ -189,8 +197,15 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
+  /*  padding-top: calc(6rem + 106px);
     padding-bottom: 6rem;
+  */  text-align: center;
+    color: #fff;
+    background-image: url(../img/title.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
   }
   header.masthead h1 {
     font-size: 4.75em;
@@ -209,7 +224,7 @@ header.masthead h2 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/title.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../img/title.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
