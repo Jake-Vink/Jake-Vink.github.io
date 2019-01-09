@@ -178,9 +178,8 @@ header.masthead {
 }
 
 header.title {
-  background-image: url('img/title.png');
+  background-image: url('/img/title.jpg');
   height: 50%;
-
 /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
